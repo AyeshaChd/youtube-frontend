@@ -8,6 +8,7 @@ import {
   WATCH_LATER,
   VIDEOS_ICONS,
 } from "../Utils/constants";
+import { Link } from "react-router";
 
 const SideBarPanel = () => {
   const isMenuOpen = useSelector((store) => store.menu.isMenuOpen);
@@ -56,7 +57,9 @@ const SideBarPanel = () => {
         </div>
         <div className="headings size-full mt-1">
           <ul className="icons flex flex-col ">
-            <li className="mt-8 ">Home</li>
+            <li className="mt-8 ">
+              <Link to="/">Home</Link>
+            </li>
             <li className="mt-6">Shorts</li>
             <li className="mt-6">Subscriptions</li>
             <li className="mt-6">History</li>

@@ -5,13 +5,33 @@ import { Provider } from "react-redux";
 import store from "./Utils/store";
 
 import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router";
+import MainContainer from "./components/MainContainer";
+import WatchPg from "./components/WatchPg";
+
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <Body />,
+    children: [
+      {
+        path: "/",
+        element: <MainContainer />,
+      },
+      {
+        path: "watch",
+        element: <WatchPg />,
+      },
+    ],
+  },
+]);
 
 function App() {
   return (
     <div>
       <Provider store={store}>
         <Header />
-        <Body />
+        <RouterProvider router={appRouter} />
       </Provider>
     </div>
   );

@@ -1,8 +1,6 @@
-// import PropTypes from "prop-types";
+import { formateNumber } from "../Utils/formateNumber.js";
 
 const VideoCard = ({ info }) => {
-  console.log("2");
-  console.log(info);
   if (info === undefined) {
     return null; // Return null if any of the variables are undefined
   }
@@ -23,7 +21,7 @@ const VideoCard = ({ info }) => {
           {title}
         </li>
         <li className="mt-2 text-[.90rem]">{channelTitle}</li>
-        <li className=" text-[.90rem]">{viewCount} views.</li>
+        <li className=" text-[.90rem]">{formateNumber(viewCount)} views.</li>
       </ul>
     </div>
   );
