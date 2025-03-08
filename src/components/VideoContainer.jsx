@@ -5,16 +5,14 @@ import { Link } from "react-router";
 
 const VideoContainer = () => {
   useEffect(() => {
-    console.log("useee");
     getVideos();
   }, []);
   const [videos, setVideos] = useState([]);
 
-  console.log("1");
   const getVideos = async () => {
     const data = await fetch(YOUTUBE_VIDEOS_API);
     const json = await data.json();
-    console.log("useff");
+
     setVideos(json.items);
   };
 

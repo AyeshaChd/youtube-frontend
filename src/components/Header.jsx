@@ -6,8 +6,11 @@ import {
 } from "../Utils/constants";
 import { useDispatch } from "react-redux";
 import { toggleMenu } from "../Utils/menuBarSlice";
+import { useState } from "react";
 
 const Header = () => {
+  const [searchQuery, setSearchQuery] = useState("");
+  console.log(searchQuery);
   const dispatch = useDispatch();
   const toggleMenuHandler = () => {
     dispatch(toggleMenu());
@@ -30,6 +33,8 @@ const Header = () => {
         <input
           type="text"
           className="border-[1.5px] rounded-l-full w-2/4  p-[4.5px]"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
         />
         <button>
           <img

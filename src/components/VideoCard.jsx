@@ -26,10 +26,5 @@ const VideoCard = ({ info }) => {
     </div>
   );
 };
-// VideoCard.propTypes = {
-//   info: PropTypes.string.isRequired,
-//   name: PropTypes.string.isRequired,
-//   snippet: PropTypes.string.isRequired,
-// };
 
 export default VideoCard;
