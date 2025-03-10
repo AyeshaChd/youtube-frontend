@@ -10,7 +10,7 @@ const VideoCard = ({ info }) => {
   const { viewCount } = statistics;
 
   return (
-    <div className="mt-7 ml-5">
+    <div className="mt-7 ml-3  w-[20rem]">
       <img
         alt="thumnail"
         className="rounded-lg"

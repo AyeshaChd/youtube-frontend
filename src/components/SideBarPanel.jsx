@@ -16,7 +16,7 @@ const SideBarPanel = () => {
 
   if (!isMenuOpen) return null;
   return (
-    <div className=" w-58 shadow-lg">
+    <div className=" w-56 shadow-lg">
       <div className="sideBarPanel mt-6 font-semibold flex justify-between  ">
         <div className="icons w-1/2 mt-4">
           <ul className=" flex flex-col justify-center items-center ">
