@@ -3,7 +3,7 @@ export const HAMBURGERMENU_URL =
 export const YOUTUBELOGO_URL =
   "https://lh3.googleusercontent.com/3zkP2SYe7yYoKKe47bsNe44yTgb4Ukh__rBbwXwgkjNRe4PykGG409ozBxzxkrubV7zHKjfxq6y9ShogWtMBMPyB3jiNps91LoNH8A=s500";
 export const USER_LOGO =
-  "https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg";
+  "https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png";
 
 export const SEARCH_ICON =
   "https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png";

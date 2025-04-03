@@ -98,7 +98,7 @@ const Header = () => {
         </div>
       </div>
       <div className="col-span-2 m-auto mr-7">
-        <img alt="user" className="w-12 h-12 " src={USER_LOGO} />
+        <img alt="user" className="w-12 h-8 " src={USER_LOGO} />
       </div>
     </div>
   );
