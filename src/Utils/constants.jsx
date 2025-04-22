@@ -23,6 +23,8 @@ export const WATCH_LATER =
   "https://cdn.iconscout.com/icon/free/png-256/free-watch-later-icon-download-in-svg-png-gif-file-formats--material-design-icons-google-action-vol-4-pack-user-interface-1513853.png?f=webp&w=256";
 export const LIKED_VIDEOS =
   "https://cdn-icons-png.flaticon.com/512/4354/4354366.png";
+export const SEND_ICON =
+  "https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/2/send-o8c93q4i0jnvkty2dachb.png/send-fept9s28oheau3ys9l4ce.png?_a=DAJFJtWIZAA0";
 
 // ==========================================================
 const GOOGLE_API_KEY = "AIzaSyAGAdNG3DmmU4wrfsYACvVhTOHJB18I_fk";
@@ -32,3 +34,5 @@ export const YOUTUBE_VIDEOS_API =
 
 export const YOUTUBE_SEARCH_API =
   "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
+export const LIVE_CHAT_COUNT = 25;

@@ -31,7 +31,7 @@ const WatchPg = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        <div className="pl-6 border border-black rounded-lg h-[370] ml-10 w-1/3">
+        <div className=" border border-black rounded-lg  w-1/3 ml-10   ">
           <Livechat />
         </div>
       </div>
