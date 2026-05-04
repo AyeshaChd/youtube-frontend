@@ -21,7 +21,7 @@ const Demo = () => {
       <div>
         <div className="text-center mt-3 text-[.5xl] p-5">
           <button
-            className="mt-2 border  border-black rounded bg-green-300 text-[.5xl] text-black text-small"
+            className="mt-2 border  border-black rounded bg-amber-700 text-[.5xl] text-black text-small"
             onClick={() => {
               setIsDarkTheme(!isDarkTheme);
             }}

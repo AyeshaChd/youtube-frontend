@@ -13,7 +13,7 @@ import { cacheResults } from "../Utils/searchSlice";
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [suggestions, setsuggestions] = useState([]);
-  const [showSuggestions, setShowSuggestions] = useState("false");
+  const [showSuggestions, setShowSuggestions] = useState(false);
   const dispatch = useDispatch();
 
   const toggleMenuHandler = () => {
@@ -52,7 +52,7 @@ const Header = () => {
   };
 
   return (
-    <div className="grid grid-flow-col    shadow-lg ">
+    <div className=" fixed top-0 left-0 w-full grid grid-flow-col shadow-lg bg-white z-50  ">
       <div className="flex items-center col-span-1 ml-2">
         <img
           onClick={() => {

@@ -16,7 +16,7 @@ const WatchPg = () => {
   }, []);
 
   return (
-    <div className="ml-20 mt-8">
+    <div className="ml-16 mt-12">
       <div className="flex w-full">
         <iframe
           className="  rounded-lg "
@@ -31,7 +31,7 @@ const WatchPg = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowfullscreen
         ></iframe>
-        <div className=" border border-black rounded-lg  w-1/3 ml-10   ">
+        <div className=" border border-black rounded-lg  w-80 ml-10   ">
           <Livechat />
         </div>
       </div>

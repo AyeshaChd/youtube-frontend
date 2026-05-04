@@ -14,7 +14,7 @@ import Demo2 from "./components/Demo2";
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Body />,
+   element: <><Header /><div className="pt-20"><Body /></div></>,
     children: [
       {
         path: "/",
@@ -42,7 +42,7 @@ function App() {
     <div>
       <Provider store={store}>
         <Header />
-        <RouterProvider router={appRouter} />
+        < RouterProvider router={appRouter} />
       </Provider>
     </div>
   );
